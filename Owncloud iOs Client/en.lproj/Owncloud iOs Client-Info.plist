@@ -2,10 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.owncloud.iOSmobileapp</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>ownCloud</string>
+	<string>MyCloudDesks</string>
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
@@ -58,12 +60,8 @@
 		<string>Default-Landscape_375h@2x.png</string>
 		<string>Default-Landscape_414h@3x.png</string>
 	</array>
-	<key>CFBundleIdentifier</key>
-	<string>com.owncloud.iOSmobileapp</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
-	<key>CFBundleName</key>
-	<string>${PRODUCT_NAME}</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>

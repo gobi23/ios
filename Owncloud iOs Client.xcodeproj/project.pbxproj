@@ -371,7 +371,7 @@
 		593D531E17BF701800191846 /* SSOViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 593D531C17BF701800191846 /* SSOViewController.xib */; };
 		593F7CAA19EFDE96004136F7 /* UtilsUrls.m in Sources */ = {isa = PBXBuildFile; fileRef = 593F7CA919EFDE96004136F7 /* UtilsUrls.m */; };
 		595333FB1A1DF26000C57ED5 /* UIAlertView+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 595333FA1A1DF26000C57ED5 /* UIAlertView+Blocks.m */; };
-		597A87981A0143000071F2AF /* libownCloudiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8667E118AA291C00D3550D /* libownCloudiOS.a */; };
+		597A87981A0143000071F2AF /* libMyCloudDesks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8667E118AA291C00D3550D /* libMyCloudDesks.a */; };
 		59990A251A0BD67A00D3B842 /* InfoFileUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AB382D18C8E35200B34697 /* InfoFileUtils.m */; };
 		59990A271A0BD74000D3B842 /* FileNameUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 148DD6FC17786BF200FB9977 /* FileNameUtils.m */; };
 		59990A281A0BDB5000D3B842 /* BackRootFolderIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1487F176177C35AA004A1A5A /* BackRootFolderIcon.png */; };
@@ -556,7 +556,7 @@
 		EA1F62D81A5EBFC700D6346F /* ManageUsersDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 1487F140177C2FC1004A1A5A /* ManageUsersDB.m */; };
 		EA1F62D91A5EBFDF00D6346F /* OCKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FF874219F81396008B7C62 /* OCKeychain.m */; };
 		EA1F62DA1A5EBFF100D6346F /* CredentialsDto.m in Sources */ = {isa = PBXBuildFile; fileRef = 40AC24D119FE725600582867 /* CredentialsDto.m */; };
-		EA1F62DD1A5EC08300D6346F /* libownCloudiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8667E118AA291C00D3550D /* libownCloudiOS.a */; };
+		EA1F62DD1A5EC08300D6346F /* libMyCloudDesks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8667E118AA291C00D3550D /* libMyCloudDesks.a */; };
 		EA1F62DE1A5EC11900D6346F /* FileDto.m in Sources */ = {isa = PBXBuildFile; fileRef = 1487F146177C315D004A1A5A /* FileDto.m */; };
 		EA2678FF1876E4B8008678DE /* notSharedItem.png in Resources */ = {isa = PBXBuildFile; fileRef = EA2678FB1876E4B8008678DE /* notSharedItem.png */; };
 		EA2679001876E4B8008678DE /* notSharedItem@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA2678FC1876E4B8008678DE /* notSharedItem@2x.png */; };
@@ -578,7 +578,7 @@
 		EA68969317F59A090033B3C1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA68969217F59A090033B3C1 /* AudioToolbox.framework */; };
 		EA68969917F9AC860033B3C1 /* OCPortraitNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA68969817F9AC860033B3C1 /* OCPortraitNavigationViewController.m */; };
 		EA707223199CC59E00CE7079 /* ManageDownloads.m in Sources */ = {isa = PBXBuildFile; fileRef = EA707222199CC59E00CE7079 /* ManageDownloads.m */; };
-		EA8667E918AA299000D3550D /* libownCloudiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8667E118AA291C00D3550D /* libownCloudiOS.a */; };
+		EA8667E918AA299000D3550D /* libMyCloudDesks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8667E118AA291C00D3550D /* libMyCloudDesks.a */; };
 		EA8ADE601A31D759008D3612 /* DocumentPickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8ADE5F1A31D759008D3612 /* DocumentPickerCell.m */; };
 		EA8ADE621A31D770008D3612 /* DocumentPickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA8ADE611A31D770008D3612 /* DocumentPickerCell.xib */; };
 		EA8ADE681A31E9AB008D3612 /* FFCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8ADE651A31E9AB008D3612 /* FFCircularProgressView.m */; };
@@ -715,7 +715,6 @@
 		1324297C15ADBB3700DF823E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1324297E15ADBB3700DF823E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1324298015ADBB3700DF823E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1324298415ADBB3700DF823E /* Owncloud iOs Client-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Owncloud iOs Client-Info.plist"; sourceTree = "<group>"; };
 		1324298815ADBB3700DF823E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1324298A15ADBB3700DF823E /* Owncloud iOs Client-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Owncloud iOs Client-Prefix.pch"; sourceTree = "<group>"; };
 		1324298B15ADBB3700DF823E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -1234,6 +1233,7 @@
 		59D774CC1910EE0F004322BA /* UtilsTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UtilsTableView.h; path = Utils/UtilsTableView.h; sourceTree = "<group>"; };
 		59D774CD1910EE0F004322BA /* UtilsTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UtilsTableView.m; path = Utils/UtilsTableView.m; sourceTree = "<group>"; };
 		59DA4F3B1A07A97100472639 /* DocumentPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DocumentPickerViewController.xib; sourceTree = "<group>"; };
+		5E8ED62D1AD3C6FD00008F7C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = "en.lproj/Owncloud iOs Client-Info.plist"; sourceTree = "<group>"; };
 		EA1787AA17E33BB9005171AB /* OCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCNavigationController.h; path = Tabs/FileTab/OCNavigationController.h; sourceTree = "<group>"; };
 		EA1787AB17E33BB9005171AB /* OCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OCNavigationController.m; path = Tabs/FileTab/OCNavigationController.m; sourceTree = "<group>"; };
 		EA2678FB1876E4B8008678DE /* notSharedItem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notSharedItem.png; sourceTree = "<group>"; };
@@ -1330,7 +1330,7 @@
 			files = (
 				59C71D281A921A5100F66166 /* ImageIO.framework in Frameworks */,
 				404FDA241A36E5E5008AB4E1 /* CoreLocation.framework in Frameworks */,
-				EA8667E918AA299000D3550D /* libownCloudiOS.a in Frameworks */,
+				EA8667E918AA299000D3550D /* libMyCloudDesks.a in Frameworks */,
 				EA68969317F59A090033B3C1 /* AudioToolbox.framework in Frameworks */,
 				EAC52E1616BAE65300C7341E /* AVFoundation.framework in Frameworks */,
 				13D8741F169DBE05000FBE6D /* MessageUI.framework in Frameworks */,
@@ -1371,7 +1371,7 @@
 				59A6F4EC1A161ED400345229 /* libssl.a in Frameworks */,
 				59D700FC1A122BB6006DB0B7 /* MobileCoreServices.framework in Frameworks */,
 				599D99F41A025733008A9DB3 /* libsqlite3.0.dylib in Frameworks */,
-				597A87981A0143000071F2AF /* libownCloudiOS.a in Frameworks */,
+				597A87981A0143000071F2AF /* libMyCloudDesks.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1379,7 +1379,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA1F62DD1A5EC08300D6346F /* libownCloudiOS.a in Frameworks */,
+				EA1F62DD1A5EC08300D6346F /* libMyCloudDesks.a in Frameworks */,
 				EA1F62D61A5EBDF900D6346F /* libsqlite3.0.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1480,7 +1480,7 @@
 				1487F15D177C35AA004A1A5A /* Images */,
 				EAF028B3177447530035084D /* FMDB */,
 				145EA7C917786FAC0087CDDB /* Languages */,
-				1324298415ADBB3700DF823E /* Owncloud iOs Client-Info.plist */,
+				5E8ED62E1AD3C6FD00008F7C /* Owncloud iOs Client-Info.plist */,
 				1324298815ADBB3700DF823E /* main.m */,
 				1324298A15ADBB3700DF823E /* Owncloud iOs Client-Prefix.pch */,
 			);
@@ -2601,7 +2601,7 @@
 		EA8667DC18AA291C00D3550D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EA8667E118AA291C00D3550D /* libownCloudiOS.a */,
+				EA8667E118AA291C00D3550D /* libMyCloudDesks.a */,
 				EA8667E318AA291C00D3550D /* ownCloud iOS libraryTests.xctest */,
 			);
 			name = Products;
@@ -2934,7 +2934,7 @@
 		1324296F15ADBB3700DF823E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0620;
 				TargetAttributes = {
 					1324297715ADBB3700DF823E = {
 						DevelopmentTeam = 9B5WD74GWJ;
@@ -2949,7 +2949,7 @@
 					};
 					EAB0AB3119ED356A00764C31 = {
 						CreatedOnToolsVersion = 6.0.1;
-						DevelopmentTeam = 9B5WD74GWJ;
+						DevelopmentTeam = 95E745SSEJ;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -2961,7 +2961,7 @@
 					};
 					EAB0AB3F19ED356A00764C31 = {
 						CreatedOnToolsVersion = 6.0.1;
-						DevelopmentTeam = 9B5WD74GWJ;
+						DevelopmentTeam = 95E745SSEJ;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -3005,10 +3005,10 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		EA8667E118AA291C00D3550D /* libownCloudiOS.a */ = {
+		EA8667E118AA291C00D3550D /* libMyCloudDesks.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = libownCloudiOS.a;
+			path = libMyCloudDesks.a;
 			remoteRef = EA8667E018AA291C00D3550D /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -3751,6 +3751,14 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
+		5E8ED62E1AD3C6FD00008F7C /* Owncloud iOs Client-Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E8ED62D1AD3C6FD00008F7C /* en */,
+			);
+			name = "Owncloud iOs Client-Info.plist";
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -3831,7 +3839,6 @@
 		132429C015ADBB3800DF823E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = "Owncloud iOs Client/Owncloud iOs Client.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -3872,7 +3879,6 @@
 		132429C115ADBB3800DF823E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = "Owncloud iOs Client/Owncloud iOs Client.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
